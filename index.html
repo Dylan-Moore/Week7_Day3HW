@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main2.js" defer></script>
+<title>Racer API</title>
+</head>
+<body>
+    <h1 class="text-center">Racer API Data</h1>
+    <!-- <div class="class">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <button class="btn btn-primary" onclick="load_data()">Get Data</button>
+                <button class="btn btn-primary" onclick="clear_data()">Clear Data</button>
+            </div>
+        </div>
+    </div> -->
+    <form name="testData" id="testDataForm">
+        <label for="season">season</label>
+        <input type="text" name="season" id="season">
+
+        <label for="year">year</label>
+        <input type="text" name="year" id="year">
+
+        <button type="submit" id="submitButton" onclick="load_data()">Submit Me</button>
+        <button type="submit" id="submitButton" onclick="clear_data()">Clear!</button>
+    </form>
+    <div class="racer-list">
+        
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
